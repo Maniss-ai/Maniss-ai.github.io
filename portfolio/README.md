@@ -37,7 +37,7 @@ To add a role or project, add an entry to the corresponding array. For a new pro
 pnpm build
 ```
 
-The ready-to-host website is in `dist/client/`. It contains HTML, CSS, JavaScript and image assets. The resume download appears only if `/Manish-Soni-Resume.pdf` exists and is served as a PDF. The public GitHub handoff omits this personal document pending approval; add it to `public/` when ready to publish it. Serve it from the root of a domain. No database, API keys or paid backend is required.
+The ready-to-host website is in `dist/client/`. It contains HTML, CSS, JavaScript and image assets. The resume download appears only if `/Manish-Soni-Resume.pdf` exists and is served as a PDF. The original resume PDF is included with your approval. Serve it from the root of a domain. No database, API keys or paid backend is required.
 
 ```sh
 python3 -m http.server 8080 --directory dist/client
@@ -100,4 +100,4 @@ See `CREDITS.md` for assets.
 
 ## Public asset privacy
 
-The original portrait photograph and resume PDF are not included in this public repository. The About section uses the generated illustration. Add either original file only when you intend it to be publicly downloadable.
+The original portrait photograph and resume PDF are included with your explicit approval for public GitHub publication. The About section displays the original portrait; the hero keeps the generated illustration.
